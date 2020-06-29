@@ -1,9 +1,9 @@
 #!/bin/bash
 
 cd scripts/
-touch i3-exec.sh
-echo "#!/bin/bash" i3-exec.sh
-echo "startx /usr/bin/i3" i3-exec.sh
-sudo cp i3-exec.sh /usr/bin/
-sudo chmod +x /usr/bin/i3-exec.sh
+touch i3-exec
+echo "#!/bin/bash" i3-exec
+echo "startx /usr/bin/i3" i3-exec
+sudo cp i3-exec /bin/
+sudo chmod +x /bin/i3-exec
 i3-exec
