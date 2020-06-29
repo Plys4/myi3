@@ -10,5 +10,6 @@ sudo apt install flatpak -y
 sudo apt install feh -y
 sudo apt install xfce4-terminal compton vim rofi -y
 sudo apt install gnome-backgrounds -y
+sudo apt install papirus-icon-theme -y
 mkdir scripts/
 mkdir bin/
